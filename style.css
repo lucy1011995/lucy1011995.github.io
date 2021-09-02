@@ -1,0 +1,177 @@
+/*
+	This sets the background of the entire page
+	to SeaShell and creates a variable called 
+	banner-size that all the selectors can use.
+*/
+:root {
+	--banner-size: 8em;
+	background-color: seashell;
+
+}
+
+
+*{
+    margin: 0;
+}
+
+
+/* 	
+	This id selector will only change the page banner.
+	It sets the size and position of the banner. It also sets
+	the color, font, and position of the text inside the
+	banner. Because the position is fixed, then banner will
+	scroll with the page.
+*/
+#page-banner {
+	position: fixed;
+	min-height: var(--banner-size);
+	background-color: palevioletred;
+	color: SeaShell;
+	text-align: center;
+	width: 100%;
+	font-family: "Helvetica";
+
+	padding-top: 2em;
+
+}
+
+.about-banner{
+	position: absolute;
+}
+
+/*	
+	This is the selector for the img tag. It sets the
+	size of all the images along with the padding between
+	them. 
+*/
+img {
+	padding-top: 4em;
+	padding-right: 1%;
+	padding-left: 1%;
+	width: 30%;
+	height: 30%
+
+}
+
+.current-book{
+	padding-top: 0em;
+	width: 20%;
+	height: 20%
+}
+
+#currently-reading
+{
+	text-align: center;
+}
+
+/* 
+	This will change all the section headers. It changes
+	the font, color, and size of the headers so they 
+	stand out from the rest of the text on the page.
+*/
+.section-header {
+	font-family: "Helvetica";
+	font-size: 2em;
+	background-color: paleturquoise;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 1em;
+
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+/*
+	This selector pads every resume-section so that
+	they will always appear below the banner.
+*/
+.resume-section {
+	padding-top: var(--banner-size);
+	padding-bottom: 1em;
+
+}
+
+.person {
+	font-family: "Helvetica";
+	font-size: 2em;
+	background-color: paleturquoise;
+
+	padding-left: 1em;
+
+	padding-top: var(--banner-size);
+	padding-bottom: 1em;
+
+}
+
+.cullen-image{
+	text-align: right;
+}
+
+/*
+	This selector formats the skills-sections to be
+	side-by-side. It also adds a border and changes
+	the font and color of the included text.
+*/
+.skills-section {
+	font-family: "Helvetica";
+	color: DarkCyan;
+	background-color: papayawhip;
+	border-style: solid;
+	border-width: medium;
+	border-color: DarkCyan;
+
+	float: left;
+	width: 40%;
+	height: 12em;
+
+	padding-top: 1em;
+  	padding-bottom: 1em;
+  	padding-left: 2%;
+  	padding-right: 2%;
+
+  	margin-bottom: 20vh;
+  	margin-right: 2vw;
+  	margin-left: 2vw;
+}
+
+#main-resume{
+	padding-bottom: 20em;
+}
+
+.footer{
+	position: absolute;
+	background-color: Black;
+	width: 100%;
+	white-space: nowrap;
+	padding-bottom: 1em;
+	list-style: none;
+	
+}
+
+.navbar-header{
+	display: inline-block;
+	color: lightgrey;
+	font-size: 1.5em;
+	font-family: "Helvetica";
+	padding-top: 1em;
+}
+
+.navbar-right{
+	display: inline-block;
+}
+
+#footer ul{
+  list-style: none;
+}
+
+#footer li{
+  display: inline;
+  padding-right: 2em;
+}
+
+a{
+	color: lightgrey;
+	font-family: "Helvetica";
+	text-decoration: none;
+	padding-right: 1em;
+}

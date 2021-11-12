@@ -12,8 +12,10 @@ header, footer {
   /* background-color: #7D4E57;  Tscan Red */
   /* background-color: #293241; Gunmetal */
   /* background-color: #003E1F; British racing green */
-  background-color: #11151C; Black
+  /* background-color: #11151C; Black */
   /* background-color: #2D3142; space cadet */
+  background-color: #AA3939;
+
 
 
   text-align: left;
@@ -23,9 +25,10 @@ header, footer {
 header {
   font-family: Work Sans;
   /* color: #fff; */
-  color: #FF8600; dark orange
+  /* color: #FF8600; dark orange */
   /* color: #EF8354; mandarin */
   /* color: #FFD100; cyber yellow */
+  color: #550000;
   min-height: 100vh;
   display: flex;
 }
@@ -52,11 +55,12 @@ h1 {
 
 h2 {
   font-family: Spartan;
+  color: #AA3939;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  /* color: #ffa500; */
   padding: 10px 0px 10px 10px;
 }
 
@@ -74,7 +78,8 @@ img {
 }
 
 .bio {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #FFAAAA;
   font-size: 24px;
   font-family: 'Space Grotesk';
 }

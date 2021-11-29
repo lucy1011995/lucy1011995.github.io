@@ -14,8 +14,11 @@ header, footer {
   /* background-color: #003E1F; British racing green */
   /* background-color: #11151C; Black */
   /* background-color: #2D3142; space cadet */
-  background-color: #AA3939;
+  /* background-color: #AA3939; */
 
+  background: #AA3939;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #550000, #AA3939);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #550000, #AA3939); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
   text-align: left;
@@ -28,7 +31,9 @@ header {
   /* color: #FF8600; dark orange */
   /* color: #EF8354; mandarin */
   /* color: #FFD100; cyber yellow */
-  color: #550000;
+  /* color: #550000; */
+  /* color: #2c0101; */
+  color: #FFAAAA;
   min-height: 100vh;
   display: flex;
 }
@@ -92,9 +97,9 @@ img {
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #FFAAAA;
   cursor: pointer;
-  color: #ffffff;
+  color: #FFAAAA;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -102,7 +107,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:rgba(255,255,255,0.3);
 }
 
 .myButton:active {
@@ -170,8 +175,14 @@ a {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media all and (max-width:700px) {

@@ -9,30 +9,16 @@ body {
 }
 
 header, footer {
-  /* background-color: #7D4E57;  Tscan Red */
-  /* background-color: #293241; Gunmetal */
-  /* background-color: #003E1F; British racing green */
-  /* background-color: #11151C; Black */
-  /* background-color: #2D3142; space cadet */
-  /* background-color: #AA3939; */
 
   background: #AA3939;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #550000, #AA3939);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #550000, #AA3939); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
   text-align: left;
-  /*min-width: 500px;*/
 }
 
 header {
   font-family: Work Sans;
-  /* color: #fff; */
-  /* color: #FF8600; dark orange */
-  /* color: #EF8354; mandarin */
-  /* color: #FFD100; cyber yellow */
-  /* color: #550000; */
-  /* color: #2c0101; */
   color: #FFAAAA;
   min-height: 100vh;
   display: flex;
@@ -65,7 +51,6 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  /* color: #ffa500; */
   padding: 10px 0px 10px 10px;
 }
 
@@ -83,7 +68,6 @@ img {
 }
 
 .bio {
-  /* color: #ffffff; */
   color: #FFAAAA;
   font-size: 24px;
   font-family: 'Space Grotesk';
@@ -115,40 +99,13 @@ img {
     top:1px;
 }
 
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);
   width: 100%;
-}
-
-.a {
-
 }
 
 a {
   color: #AA3939;
-}
-
-.c {
-
-}
-
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: 'Space Grotesk';
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
 }
 
 .description {
@@ -159,19 +116,10 @@ a {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .container {
-  /*  min-width: 500px; */
   margin: auto;
 }
 
